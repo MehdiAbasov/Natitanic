@@ -1,0 +1,249 @@
+:root {
+    --orange: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    --gray: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    --background-gray: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+}
+
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1C1C1C;
+    padding: 0 20%;
+    align-items: center;
+    height: 10vh;
+}
+
+header nav {
+    display: flex;
+    gap: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo img {
+    height: 2.8vw;
+}
+
+.active {
+    border-bottom: 1px solid #E29500;
+}
+
+/* end header */
+
+
+/* container */
+.container {
+    align-items: center;
+    display: flex;
+    background: #1C1C1C;
+    padding: 0 20%;
+}
+
+.left-side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-side span {
+    font-size: 4.7vw;
+}
+
+.left-side .top {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.left-side .top p {
+    font-size: 5.2vw;
+}
+
+.left-side .bottom {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.left-side .bottom p {
+    color: #fff;
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+.right-side {
+    width: 100%;
+}
+
+.right-side .class-img {
+    width: 45vw;
+}
+
+.class-img img {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.left-side button {
+    background-color: #E29500;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    color: #1C1C1C;
+}
+
+/* end container */
+
+/* my-projects */
+
+.my-projects {
+    display: flex;
+    background: #414141;
+    flex-wrap: wrap;
+    padding: 5% 20%;
+}
+
+.rectangles {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.rectangle {
+    padding: 40px 30px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #2a2a2a;
+    color: #e4e4e4;
+}
+
+.rectangle img {
+    width: 50px;
+}
+
+.img2 {
+    padding-top: 25px;
+}
+
+/* end my-projects */
+
+/* about-me */
+
+.about-me {
+    background-image: url(images/Ellips.png);
+    background-position: center;
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-color: #414141;
+    display: flex;
+    justify-content: center;
+    padding: 0 20%;
+}
+
+.about-me img {
+    width: 100%;
+}
+
+/* end about-me */
+
+/* portfolio section */
+
+.portfolio {
+    background-color: #1C1C1C;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 20%;
+}
+
+.portfolio .top {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+.portfolio .arrow {
+    padding: 10px 10px;
+    background-color: #E29500;
+    border-radius: 50%;
+    display: flex;
+    width: 50px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio .bottom {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.arrow img {
+    width: 20px;
+}
+
+.middle {
+    border-radius: 30px;
+    background-color: #414141;
+    display: flex;
+    padding: 20px 20px;
+    gap: 40px;
+}
+
+.left img {
+    border-radius: 20px;
+    width: 30vw;
+}
+
+.link{
+    color: #E2A300;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.link img{
+    width: 1vw;
+}
+
+.right {
+    text-align: center;     
+    gap: 40px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+/* end portfolio section */
+
+/* footer */
